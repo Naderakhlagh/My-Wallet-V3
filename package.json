@@ -71,7 +71,7 @@
   },
   "devDependencies": {
     "babel-cli": "~6.24.0",
-    "babel-loader": "6.2.10",
+    "babel-loader": "7.1.5",
     "babel-plugin-transform-object-assign": "~6.22.0",
     "babel-polyfill": "6.16.*",
     "babel-preset-env": "^1.6.1",
