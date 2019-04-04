@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/node@11.11.6":
+  version "11.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.6.tgz#df929d1bb2eee5afdda598a41930fe50b43eaa6a"
+
 JSONStream@^1.0.3:
   version "1.3.2"
   resolved "https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.2.tgz#c102371b6ec3a7cf3b847ca00c20bb0fce4c6dea"
@@ -1108,14 +1112,14 @@ bindings@^1.2.1:
   version "1.3.0"
   resolved "https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz#b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
 
-bip39@2.1.*:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/bip39/-/bip39-2.1.2.tgz#a18b53f20b3cdb752db417644c452c1daf2f47d6"
+bip39@3.0.*:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.0.0.tgz#5478336673db911330d70dde58f437a6a5ec7cf7"
   dependencies:
+    "@types/node" "11.11.6"
     create-hash "^1.1.0"
-    pbkdf2 "^3.0.0"
+    pbkdf2 "^3.0.9"
     randombytes "^2.0.1"
-    unorm "^1.3.3"
 
 bip66@^1.1.0, bip66@^1.1.3:
   version "1.1.5"
@@ -4524,9 +4528,9 @@ pause@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
 
-pbkdf2@^3.0.0, pbkdf2@^3.0.12, pbkdf2@^3.0.3:
-  version "3.0.14"
-  resolved "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.0.14.tgz#a35e13c64799b06ce15320f459c230e68e73bade"
+pbkdf2@^3.0.12, pbkdf2@^3.0.3, pbkdf2@^3.0.9:
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.17.tgz#976c206530617b14ebb32114239f7b09336e93a6"
   dependencies:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
@@ -5803,7 +5807,7 @@ uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
 
-unorm@^1.3.3, unorm@^1.4.1:
+unorm@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/unorm/-/unorm-1.4.1.tgz#364200d5f13646ca8bcd44490271335614792300"
 
